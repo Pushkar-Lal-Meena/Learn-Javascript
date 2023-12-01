@@ -1,8 +1,13 @@
+// Lexical environment, scope chain
+
 const lastName = "varshistha";
 
-const printName = function(){
+const printName = function () {
     const firstName = "Harshist";
-    console.log(firstName);
-    console.log(lastName);
+    function myFunction() {
+        console.log(firstName);
+        console.log(lastName);
+    }
+    myFunction()
 }
-printName();
+printName(); 
