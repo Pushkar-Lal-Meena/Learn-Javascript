@@ -1,4 +1,5 @@
 // css class list cheack
+ 
 const sectionTodo = document.querySelector(".section-todo");
 console.log(sectionTodo.classList);
 
@@ -14,6 +15,11 @@ console.log(sectionTodo.classList);
 // console.log(ans);
 
 // toggle -->   1.class already exisit than remove class
-//              2.class not available than add class
+            //  2.class not available than add class
+            
+// Add Class
 sectionTodo.classList.toggle('bg-dark');
+// Remove class
+sectionTodo.classList.toggle('bg-dark');
+// Add Class
 sectionTodo.classList.toggle('bg-dark');

@@ -68,8 +68,8 @@ a {
     text-align: center;
 }
 .bg-dark {
-    background: aquamarine;
-    color: black;
+    background: #000;
+    color: #eee;
 }
 .form-todo{
     min-width: 5vh;
@@ -93,11 +93,15 @@ a {
     font-weight: bold;
 }
 .form-list {
-    text-align: right;
+    text-align:  ;
     font-size: 1.2rem;
     list-style-type: none;
 }
-
+.todo-list {
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
 .todo-list li{
     padding: 0.7rem;
     background: #444;

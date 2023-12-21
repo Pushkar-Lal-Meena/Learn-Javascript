@@ -28,11 +28,14 @@
 //     navItem.style.fontWeight = "bold";
 // }
 
+
 // 3. ForEach Methods =>
-// navItems = Array.from(navItems);
-// console.log(Array.isArray(navItems));
+
+// navItems = Array.from(navItems);     //HTML Collection change to Array
+// // console.log(Array.isArray(navItems));
+
 // navItems.forEach((navItem) => {
-//     navItem.style.backgroundColor = "white";
+//     navItem.style.backgroundColor = "green";
 //     navItem.style.color = "black";
 //     navItem.style.fontWeight = "bold";
 // });
@@ -50,9 +53,9 @@
 // 3. forEach
 
 let navItems = document.querySelectorAll("a");
-// change to Array
-navItems = Array.from(navItems);
-console.log(Array.isArray(navItems));
+        // // NodeList to change to Array
+// navItems = Array.from(navItems);
+// console.log(Array.isArray(navItems));
 
 // 1. simple for loop
 // for (i = 0; i < navItems.length; i++) {
@@ -71,9 +74,9 @@ console.log(Array.isArray(navItems));
 // }
 
 // 3. ForEach Methods =>
-navItems.forEach((navItem) => {
-    navItem.style.backgroundColor = "white";
-    navItem.style.color = "black";
-    navItem.style.fontWeight = "bold";
-});
+// navItems.forEach((navItem) => {
+//     navItem.style.backgroundColor = "white";
+//     navItem.style.color = "black";
+//     navItem.style.fontWeight = "bold";
+// });
 
